@@ -1,0 +1,19 @@
+phi=22/7
+r=int(input())
+t=int(input())
+V=phi*r*r*t
+L=2*phi*r*(t+r)
+K=2*phi*r
+print("Volume= %.2f"%V)
+print("Luas= %.2f"%L)
+print("Keliling= %.2f\n"%K)
+
+r2,t2=input().split()
+r2=int(r2)
+t2=int(t2)
+V2=phi*r2*r2*t2
+L2=2*phi*r2*(t2+r2)
+K2=2*phi*r2
+print("Volume= %.2f"%V2)
+print("Luas= %.2f"%L2)
+print("Keliling= %.2f"%K2)
